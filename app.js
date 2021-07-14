@@ -18,7 +18,7 @@ var randomNumber = Math.floor(Math.random() * 100) + 1
 let hak = 0
 input_1.disabled = false
 buton1.disabled = false
-let bosluk = 40
+let bosluk = 30
 let ebat = 20
 console.log(bosluk);
 console.log(img_margine);
