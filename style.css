@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(to bottom right,#f58b64, #b9bcd0) ;
+    height: 100vh;
+ 
+}
+.title {
+    
+    border: 1px solid red ;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+}
+.butondiv{
+    text-align: center;
+    margin: auto;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    margin-bottom: 10px;
+
+}
+div{
+    text-align: center;
+}
+.sondiv{
+    margin-bottom:30px 
+}
+button{
+    background-color: blue;
+    border-radius: 5px;
+    /* border: 1px solid blue; */
+    height: 1.9rem;
+    color: white;
+}
+input{
+    width: 10%;
+    height: 1.2rem;
+}
+#par1  {
+    background-color: white;
+}
+#buz{
+    margin-right: auto;
+}
+#buz1{margin-left: auto;}
