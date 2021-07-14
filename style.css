@@ -48,3 +48,6 @@ input{
     margin-right: auto;
 }
 #buz1{margin-left: auto;}
+#par3{
+    display: inline;
+}

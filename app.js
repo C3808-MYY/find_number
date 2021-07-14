@@ -45,7 +45,7 @@ function butonf() {
   img_margine.style.marginRight = `${bosluk}%`
   img_margine1.style.marginLeft = `${bosluk}%`
   bosluk = bosluk - 10
-  ebat = ebat + 5
+  ebat = ebat + 9
   
   if (tut != randomNumber && hak > 4) {
     
@@ -53,6 +53,7 @@ function butonf() {
     document.getElementById("buz1").src = "./foto/patlama.jpg"
     img_margine.style.marginRight = "0px";
     img_margine1.style.marginLeft = "0px";
+    ipucu.innerHTML = "OLMADI ARABALAR PATLADI"
     
     window.alert("hakkınız bitti")
     input_1.disabled = true
@@ -68,10 +69,10 @@ function butonf() {
     input_1.disabled = true
     buton1.disabled = true
 
-  } else if (tut > randomNumber) {
+  } else if (tut > randomNumber && hak < 4) {
     ipucu.innerHTML = "DAHA KÜÇÜK SAYI  DENEYİN"
 
-  } else if (tut < randomNumber) {
+  } else if (tut < randomNumber && hak < 4) {
     ipucu.innerHTML = "DAHA BÜYÜK SAYI DENEYİN"
   }
 }
