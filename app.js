@@ -6,10 +6,12 @@ let input_1 = document.querySelector("#number")
 let ipucu = document.querySelector("#par3")
 let img_margine = document.querySelector("#buz")
 let img_margine1 = document.querySelector("#buz1")
+let pat = document.querySelector("#buz").src
+let pat1 = document.querySelector("#buz1").src
 var ad;
 var randomNumber = Math.floor(Math.random() * 100) + 1
 
-
+console.log(pat1="losssl");
 // console.log("ilk ", randomNumber);
 // console.log("ilk", Number(input_1.value));
 // console.log("ilk", Number(input_1.value) === randomNumber);
@@ -46,9 +48,19 @@ function butonf() {
   ebat = ebat + 5
   
   if (tut != randomNumber && hak > 4) {
+    
+    document.getElementById("buz").src = "./foto/patlama.jpg"
+    document.getElementById("buz1").src = "./foto/patlama.jpg"
+    img_margine.style.marginRight = "0px";
+    img_margine1.style.marginLeft = "0px";
+    
     window.alert("hakkınız bitti")
     input_1.disabled = true
     buton1.disabled = true
+    
+   
+    
+    
   }
   if (tut == randomNumber) {
     window.alert("tebrikleeeer")

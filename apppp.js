@@ -62,3 +62,7 @@ function butonf() {
         ipucu.innerHTML = "daha BÜYÜK sayı deneyin"
     }
 }
+
+
+document.getElementById("buz").src = "gfavicon.png"
+    document.getElementById("buz1").src = 
