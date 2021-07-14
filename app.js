@@ -64,14 +64,14 @@ function butonf() {
   }
   if (tut == randomNumber) {
     window.alert("tebrikleeeer")
-    ipucu.innerHTML = "Tebrikler buldunuz"
+    ipucu.innerHTML = "TEBRİKLERRR :)"
     input_1.disabled = true
     buton1.disabled = true
 
   } else if (tut > randomNumber) {
-    ipucu.innerHTML = "daha KÜÇÜK sayı deneyin"
+    ipucu.innerHTML = "DAHA KÜÇÜK SAYI  DENEYİN"
 
   } else if (tut < randomNumber) {
-    ipucu.innerHTML = "daha BÜYÜK sayı deneyin"
+    ipucu.innerHTML = "DAHA BÜYÜK SAYI DENEYİN"
   }
 }
