@@ -29,7 +29,7 @@ function butonf() {
   sayı.append(" ", tut)
   hak = hak + 1
   console.log(hak);
-  haksayı.innerHTML = 5 - hak
+  haksayı.innerHTML = 10 - hak
   tut = document.querySelector("#number").value
 
   const randomcNumber = () => {
