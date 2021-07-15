@@ -73,18 +73,20 @@ function butonf() {
   if (tut == randomNumber && hak == 7) {
     img_margine.style.marginRight = "-20%"
     img_margine1.style.marginLeft = "-20%"
-    window.alert("tebrikleeeer")
     ipucu.innerHTML = "TEBRİKLERRR :)"
+    window.alert("tebrikleeeer")
+           input_1.disabled = true
+    buton1.disabled = true
+    randomNumber = -1
+  }
+  if (tut == randomNumber) {
+    ipucu.innerHTML = "TEBRİKLERRR :)"
+    window.alert("tebrikleeeer")
+    
     input_1.disabled = true
     buton1.disabled = true
-  }
-  // else if (tut == randomNumber) {
-  //   window.alert("tebrikleeeer")
-  //   ipucu.innerHTML = "TEBRİKLERRR :)"
-  //   input_1.disabled = true
-  //   buton1.disabled = true
 
-  // }
+  }
    if (tut > randomNumber && hak < 7) {
     ipucu.innerHTML = "DAHA KÜÇÜK SAYI  DENEYİN"
     // console.log("hak kucuk", hak);
