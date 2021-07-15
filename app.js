@@ -53,7 +53,7 @@ function butonf() {
   img_margine1.style.marginLeft = `${bosluk}%`
   
   ebat = ebat + 9
-  console.log(hak);
+  console.log("Hak sayısı",hak);
   if (tut != randomNumber && hak > 6) {
     img_margine.style.marginRight = "0px";
     img_margine1.style.marginLeft = "0px";
