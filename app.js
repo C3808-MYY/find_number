@@ -10,8 +10,8 @@ let pat = document.querySelector("#buz").src
 let pat1 = document.querySelector("#buz1").src
 var ad;
 var randomNumber = Math.floor(Math.random() * 100) + 1
-
-console.log(pat1="losssl");
+console.log(randomNumber);
+// console.log(pat1="losssl");
 // console.log("ilk ", randomNumber);
 // console.log("ilk", Number(input_1.value));
 // console.log("ilk", Number(input_1.value) === randomNumber);
@@ -22,14 +22,15 @@ input_1.disabled = false
 buton1.disabled = false
 let bosluk = 30
 let ebat = 20
-console.log(bosluk);
-console.log(img_margine);
+// console.log(bosluk);
+// console.log(img_margine);
 function butonf() {
   tut = document.querySelector("#number").value
   sayı.append(" ", tut)
+  
+  // console.log(hak);
+  haksayı.innerHTML = 7 - hak
   hak = hak + 1
-  console.log(hak);
-  haksayı.innerHTML = 10 - hak
   tut = document.querySelector("#number").value
 
   const randomcNumber = () => {
@@ -44,15 +45,15 @@ function butonf() {
   ipucu.style.fontSize = `${ebat}px`
   img_margine.style.marginRight = `${bosluk}%`
   img_margine1.style.marginLeft = `${bosluk}%`
-  bosluk = bosluk - 10
+  bosluk = bosluk - 5
   ebat = ebat + 9
   
-  if (tut != randomNumber && hak > 4) {
-    
-    document.getElementById("buz").src = "./foto/patlama.jpg"
-    document.getElementById("buz1").src = "./foto/patlama.jpg"
+  if (tut != randomNumber && hak > 7) {
     img_margine.style.marginRight = "0px";
     img_margine1.style.marginLeft = "0px";
+    document.getElementById("buz").src = "./foto/patlama.jpg"
+    document.getElementById("buz1").src = "./foto/patlama.jpg"
+    
     ipucu.innerHTML = "OLMADI ARABALAR PATLADI"
     
     window.alert("hakkınız bitti")
